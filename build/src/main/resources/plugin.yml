@@ -1,0 +1,64 @@
+name: Freebuild
+version: 0.0.1
+author: Ng
+main: de.ng.nizada.freebuild.Freebuild
+
+loadbefore: [PermissionsE]
+depend: [PermissionsEx]
+
+commands:
+  gamemode:
+    aliases: [gm, gmode, gamem]
+  invsee:
+    aliases: [inventorysee, seeinv, seeinventory, isee, seei]
+  claimtool:
+    aliases: [claimt, ctool, ct]
+  admintool:
+    aliases: [admint, atool, at]
+  fly:
+  godmode:
+    aliases: [godm, gmode]
+  warp:
+    aliases: [w]
+  createwarp:
+    aliases: [cwarp, createw, crewarp, crew, addwarp, addw, cw, aw, setwarp]
+  deletewarp:
+    aliases: [dwarp, deletew, delwarp, delw, removewarp, removew, dw, rw, unsetwarp]
+  listwarp:
+    aliases: [listwarps, lwarps, lwarp, listw, warps, warplist, warpl, wl, lw, ws]
+  home:
+    aliases: [h]
+  createhome:
+    aliases: [chome, createh, crehome, creh, addh, addhome, seth, sethome, sh, ah, ch]
+  deletehome:
+    aliases: [dhome, deleteh, delhome, delh, removeh, removehome, rhome, dh, rh, unsethome, uhome]
+  listhome:
+    aliases: [listhomes, lhomes, lhome, lh, listh, homes, homelist, homel, hl, hs]
+  say:
+  createaliaseswarp:
+    aliases: [caw, createaliaseswarp, caliaseswarp, caliasesw, cawarp, addaliaseswarp, addawarp, addsubwarp, addsubnamewarp, setaliaseswarp]
+  removealiaseswarp:
+    aliases: [raw, removealiaseswarp, raliaseswarp, raliasesw, rawarp, deletealiaseswarp, delawarp, delsubwarp, delsubnamewarp. unsetaliaseswarp]
+  ping:
+  clearchat:
+    aliases: [cc]
+  vanish:
+    aliases: [v]
+  changename:
+    aliases: [changen, cname, cn]
+  enderchest:
+    aliases: [enderc, echest, ec]
+  spawn:
+  help:
+    aliases: [hilfe]
+  addhelpmessage:
+    aliases: [addhm, ahm, addhelp]
+  removehelpmessage:
+    aliases: [removehm, rhm, removehelp]
+  listhelpmessage:
+    aliases: [listhm, lhm, listhelp]
+  updatehelpmessage:
+    aliases: [updatehm, uhm, updatehelp]
+  freebuildreload:
+    aliases: [fbreload, freebreload, fbuildreload, fbreload, reloadfb]
+  link:
